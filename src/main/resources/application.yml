@@ -1,1 +1,14 @@
 # Spring Boot application configuration
+server:
+  port: 8081
+
+spring:
+  main:
+    banner-mode: "off"  # Disable the Spring Boot startup banner
+camel:
+    main:
+        name: "camel-spring-boot-example"  # Name of the Camel application
+logging:
+    level:
+        org.apache.camel: DEBUG  # Set logging level for Apache Camel to DEBUG
+        org.springframework: INFO  # Set logging level for Spring Framework to INFO

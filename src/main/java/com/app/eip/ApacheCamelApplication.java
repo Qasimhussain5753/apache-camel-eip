@@ -1,4 +1,4 @@
-package main.java.com.app.eip;
+package com.app.eip;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
